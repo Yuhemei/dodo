@@ -161,9 +161,6 @@ export default {
                     title: '简书',
                     href: 'https://jianshu.com'
                 }, {
-                    title: '沈阳理工大学教务管理系统',
-                    href: 'http://218.25.35.27:8080/(d0eiyp55edcqqv55ct5v0x45)/default2.aspx'
-                }, {
                     title: 'B站',
                     href: 'https://www.bilibili.com/'
                 },

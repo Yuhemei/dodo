@@ -4,15 +4,15 @@
     <el-button type="text">
       <router-link to="/home">主页</router-link>
     </el-button>
-    <el-button type="text">
+    <!-- <el-button type="text">
       <router-link to="/community">社区</router-link>
-    </el-button>
+    </el-button> -->
     <el-button type="text">
       <router-link to="/editHrefList">编辑网站收藏</router-link>
     </el-button>
-    <el-button type="text">
+    <!-- <el-button type="text">
       <router-link to="/heatMap">热度图</router-link>
-    </el-button>
+    </el-button> -->
     <el-button type="text">
       <router-link to="/mine">个人主页</router-link>
     </el-button>

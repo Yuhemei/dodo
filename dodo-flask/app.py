@@ -21,4 +21,4 @@ if __name__ == '__main__':
     # Category(name='java').save()
     # Category(name='css').save()
     # Category(name='python').save()
-    app.run()
+    app.run(debug=True)
