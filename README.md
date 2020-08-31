@@ -63,6 +63,6 @@ windows管理员权限下启动服务
 
 在nvm安装目录下的settings.txt中添加镜像地址如下即可：
 
-```node_mirror: https://npm.taobao.org/mirrors/node/
+`node_mirror: https://npm.taobao.org/mirrors/node/
 
-npm_mirror: https://npm.taobao.org/mirrors/npm/```
+npm_mirror: https://npm.taobao.org/mirrors/npm/`
