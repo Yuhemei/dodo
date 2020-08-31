@@ -19,7 +19,7 @@
                 <transition-group tag="ul" class="slide-ul" name="list">
                   <li
                     v-for="(list,index) in slideList"
-                    :key="index"
+                    :key="list"
                     v-show="index===currentIndex"
                     @mouseenter="stop"
                     @mouseleave="go"
