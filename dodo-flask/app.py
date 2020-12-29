@@ -21,4 +21,4 @@ if __name__ == '__main__':
     # Category(name='java').save()
     # Category(name='css').save()
     # Category(name='python').save()
-    app.run(debug=True)
+    app.run(debug=True)  //项目上线以后将此行注释掉
