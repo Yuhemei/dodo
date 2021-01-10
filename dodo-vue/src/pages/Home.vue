@@ -1,6 +1,7 @@
 <template>
       <div id="app">
-        <div style="margin-left: 82vw;">
+        <div class="home-page">
+          <div>
           您好!欢迎
           <a
             href="Mailto:yuhemei8088@163.com?CC=yuhemei8088@163.com&BCC=yuhemei8088@163.com&Subject=Hello&Body=你好"
@@ -81,6 +82,7 @@
               </div>
             </div>
           </div>
+        </div>
         </div>
       </div>
       
@@ -170,9 +172,6 @@ export default {
                 }, {
                     title: '西瓜视频',
                     href: 'https://www.ixigua.com/'
-                }, {
-                    title: '字节跳动校招',
-                    href: 'https://job.bytedance.com/campus/position?summary=&city=&q1=python&position_type='
                 }, {
                     title: 'Git.Book',
                     href: 'https://git-scm.com/book/zh/v2'
@@ -300,7 +299,7 @@ export default {
 </script>
 
 
-<style  lang="less" scoped>
+<style  lang="less" >
 
 * {
     margin: 0;
@@ -514,13 +513,6 @@ a:link {
     display: flex;
     flex-flow: column wrap;
 }
-
-#app {
-    padding: 0;
-    margin: 0;
-
-}
-
 .href-icon {
     position: static;
     width: 100px;

@@ -4,11 +4,11 @@ import Vue from "vue";
 import Vuex from "vuex";
 import ElementUI from "element-ui";
 import echarts from "echarts";
-import "element-ui/lib/theme-chalk/index.css";
 import App from "./App";
 import router from "./router";
 import axios from "axios";
 import Vant from "vant";
+import "element-ui/lib/theme-chalk/index.css";
 import "vant/lib/index.css";
 import "./assets/css/farther.css";
 Vue.use(Vuex);
@@ -16,7 +16,6 @@ Vue.use(ElementUI);
 Vue.use(echarts);
 Vue.prototype.$echarts = echarts;
 import { Toast } from "vant";
-
 import { Lazyload } from "vant";
 
 import "./plugins/element.js";

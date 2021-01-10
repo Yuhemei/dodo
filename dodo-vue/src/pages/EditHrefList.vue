@@ -26,7 +26,6 @@ import authInput from "@/pages/components/authInput";
 import authBtn from "@/pages/components/authBtn";
 import editHref from "@/pages/components/editHref";
 import hrefIcon from "@/components/hrefIcon";
-import grid from "@/components/Grid";
 import hrefAdd from "@/pages/components/hrefAdd";
 export default {
   inject:['reload'],
