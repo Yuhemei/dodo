@@ -1,3 +1,7 @@
+<!--
+ * @Author: yuhemei
+ * @Date: 2021-07-06 10:06:59
+-->
 <template>
       <div id="app">
         <div style="margin-left: 82vw;">
@@ -19,7 +23,7 @@
                 <transition-group tag="ul" class="slide-ul" name="list">
                   <li
                     v-for="(list,index) in slideList"
-                    :key="list"
+                    :key="index"
                     v-show="index===currentIndex"
                     @mouseenter="stop"
                     @mouseleave="go"

@@ -10,6 +10,7 @@
     "start": "npm run dev"
   },
   "dependencies": {
+    "@antv/g6": "^4.3.4",
     "axios": "^0.19.2",
     "echarts": "^4.8.0",
     "element": "^0.1.4",

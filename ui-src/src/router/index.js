@@ -1,3 +1,11 @@
+/*
+ * @Author: yuhemei8088
+ * @Date: 2021-07-06 10:06:59
+ * @LastEditTime: 2021-07-06 12:19:47
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \dodo\ui-src\src\router\index.js
+ */
 import Vue from 'vue';
 import Router from 'vue-router';
 import Home from '@/pages/Home';
@@ -7,6 +15,8 @@ import Search from '@/pages/Search';
 // 博客详细信息
 import EditHrefList from '@/pages/EditHrefList';
 import Mine from '@/pages/Mine';
+// js相关
+const forJs = ()=>import('@/pages/js/index.vue')
 Vue.use(Router);
 
 export default new Router({
@@ -44,6 +54,11 @@ export default new Router({
       path: '/login',
       name: 'loginPage',
       component: Login
+    },
+    {
+      path: '/forJs',
+      name: 'forJs',
+      component: forJs
     },
   ]
 });

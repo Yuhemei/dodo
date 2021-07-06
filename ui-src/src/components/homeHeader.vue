@@ -16,6 +16,9 @@
     <el-button type="text">
       <router-link to="/mine">个人主页</router-link>
     </el-button>
+    <el-button type="text">
+      <router-link to="/forJs">for Javascript</router-link>
+    </el-button>
     <div @click="$router.push('/search')" class="search">
       <span class="iconfont iconsearch"></span>
       搜索

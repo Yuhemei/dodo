@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import HomeHeader from './components/homeHeader'
+import HelloWorld from '@/components/HelloWorld.vue'
+import HomeHeader from '@/components/homeHeader'
 export default {
   name: 'app',
   components: {
