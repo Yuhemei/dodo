@@ -59,10 +59,11 @@ windows管理员权限下启动服务
 
 ## 踩坑
 
-1.node/npm下载慢或不成功解决办法
+1. node/npm下载慢或不成功解决办法
 
 在nvm安装目录下的settings.txt中添加镜像地址如下即可：
 
 `node_mirror: https://npm.taobao.org/mirrors/node/`
 
 `npm_mirror: https://npm.taobao.org/mirrors/npm/`
+2. 加注释的地方尽量在密闭代码区域
